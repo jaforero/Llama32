@@ -1,1 +1,10 @@
+# Instalar
 pip install llama-stack
+
+# Muestra la lista de los modelos disponibles
+llama model list --show-all
+
+#Una vez seleccionado el modelo se descarga aqui
+llama download --source meta --model-id CHOSEN_MODEL_ID
+
+#Luego se pega la URL recibida por email
